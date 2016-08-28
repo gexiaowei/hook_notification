@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "pm2-start": "PORT=8010 pm2 start node --name hook_notification  -- ./bin/www",
-    "pm2-stop": "pm2 stop web_hook"
+    "pm2-stop": "pm2 stop hook_notification"
   },
   "dependencies": {
     "body-parser": "~1.15.1",
